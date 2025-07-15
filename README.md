@@ -5,30 +5,39 @@ CIAN Flat Prices: Parsing, ETL, EDA, A/B Tests, ml
 
 ## 📁 Структура проекта
 
-FlatHunter-Analytics/
-├── AB test/
-│   ├── Product-Market_Fit.ipynb
-│   └── data.csv
-├── analysis/
-│   ├── eda.ipynb
-│   └── cleaned_data.csv
-├── Analyze_core/
-│   ├── Core_Metric.ipynb
-│   └── data.csv
-├── data/
-│   └── data.csv
-├── data_cleaning/
-│   ├── cleaning_data.ipynb
-│   └── cian_rent.csv
-├── ml/
-│   ├── model.ipynb
-│   └── data.csv
-├── parsing/
-│   └── cian_parser.py
-├── dashboard/
-├── LICENSE
-└── README.md
+# Структура проекта FlatHunter-Analytics
 
+- **AB test/** — папка для анализа A/B тестов.
+  - `Product-Market_Fit.ipynb` — ноутбук с анализом product-market fit.
+  - `data.csv` — данные для экспериментов.
+
+- **analysis/** — папка для разведочного анализа данных (EDA).
+  - `eda.ipynb` — ноутбук с EDA.
+  - `cleaned_data.csv` — очищенные данные.
+
+- **Analyze_core/** — папка для расчёта и анализа ключевых метрик.
+  - `Core_Metric.ipynb` — ноутбук с анализом основных метрик.
+  - `data.csv` — данные для анализа.
+
+- **data/** — папка с основным датасетом.
+  - `data.csv` — итоговые данные для анализа и моделей.
+
+- **data_cleaning/** — папка для очистки и предобработки данных.
+  - `cleaning_data.ipynb` — ноутбук для очистки данных.
+  - `cian_rent.csv` — исходные данные по аренде квартир.
+
+- **ml/** — папка с моделями машинного обучения.
+  - `model.ipynb` — ноутбук с ML-моделями.
+  - `data.csv` — данные для обучения моделей.
+
+- **parsing/** — папка для парсинга данных.
+  - `cian_parser.py` — скрипт для сбора данных с CIAN.
+
+- **dashboard/** — папка для дашбордов и визуализаций (может быть пуста).
+
+- **LICENSE** — лицензия проекта.
+
+- **README.md** — описание проекта.
 
 ## 🔄 Описание этапов
 
