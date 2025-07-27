@@ -66,10 +66,10 @@ def parse_offer(offer: dict) -> dict:
     building = offer.get('building', {})
     geo = offer.get('geo', {})
     
-    # Получаем информацию о продавце
+    
     seller_info = parse_seller_info(offer)
     
-    # Обработка даты
+    
     creation_date = ''
     if offer.get('creationDate'):
         try:
